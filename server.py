@@ -30,7 +30,7 @@ def main():
     pl = st.text_input("Petal Length","Type Here")
     pw = st.text_input("Petal Width","Type Here")
     result=""
-    if st.button("Predict"):
+    if st.button("press here for Predicted result"):
         result=predict(sl,sw,pl,pw)
     st.success('The output is {}'.format(result))
     if st.button("About"):
